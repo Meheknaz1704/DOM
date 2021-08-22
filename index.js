@@ -22,26 +22,31 @@ for(i=0;i<head .length;i++){
 let parel=document.getElementById("parent")
 console.log(parel)
 
+let pare=document.getElementById("parent")
+console.log(pare.children)
+
+let pare1=document.getElementById("parent")
+console.log(pare1.children[3])
 
 let par=document.getElementById("parent")
 console.log(par.lastChild);
 
-let pa=document.getElementsById("parent")
-console.log(pa.firstChlid);
+let pa=document.getElementById("parent")
+console.log(pa.firstChild);
 
 let parent=document.getElementById("parent")
 console.log(parent.children)
 
-let midpara=document.getElementsById("midpara")
+let midpara=document.getElementById("midpara")
 console.log(midpara.nextElementSibling);
 
-let mid=document.getElementsById("midpara")
+let mid=document.getElementById("midpara")
 console.log(mid.previousElementSiblings)
 
-let mid1=document.getElementsById("midpara")
+let mid1=document.getElementById("midpara")
 console.log(mid1.nextSibling)
 
-let mid2=document.getElementsById("midpara")
+let mid2=document.getElementById("midpara")
 console.log(mid2.previousSibling)
 
 
